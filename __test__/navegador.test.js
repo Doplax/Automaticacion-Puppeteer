@@ -9,8 +9,8 @@ describe('Mi Primer test en Puppetter',()=>{
         })
         const page = await browser.newPage();
         await page.goto('https://www.google.com/');
-        await page.waitForTimeout(5000);
+        await page.waitForTimeout(6000);
         await browser.close();
 
-    })
+    },60000)
 })
